@@ -121,6 +121,13 @@ body{
     .img-fluid{
         border-radius: 10px;
     }
+
+    .textss{
+        width: 98%;
+        word-break: break-all;
+        word-wrap: break-word;
+        text-align: justify;
+    }
 }
 
 
@@ -131,11 +138,11 @@ body{
 
     .home-inner h2{
         font-family: 'Pacifico', cursive;
-        font-size: 40px;
+        font-size: 35px;
 
     }
     .home-inner{
-        width: 100%;
+        width: 95%;
     }
   }
 

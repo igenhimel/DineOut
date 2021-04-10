@@ -85,12 +85,18 @@ body {
 #about .img-fluid {
   border-radius: 10px; }
 
+#about .textss {
+  width: 98%;
+  word-break: break-all;
+  word-wrap: break-word;
+  text-align: justify; }
+
 @media (min-width: 0px) {
   #home .home-inner h2 {
     font-family: 'Pacifico', cursive;
-    font-size: 40px; }
+    font-size: 35px; }
   #home .home-inner {
-    width: 100%; } }
+    width: 95%; } }
 
 @media (min-width: 576px) {
   #home .home-inner h2 {
