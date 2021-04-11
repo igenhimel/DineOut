@@ -17,13 +17,7 @@ AOS.init({
 });
 
 
-
-    lightbox.option({
-      'resizeDuration': 200,
-      'wrapAround': true,
-    });
-
-    $(document).ready(function(){
+   
         $(window).scroll(function(){
          var y = $(window).scrollTop();
          
@@ -34,7 +28,7 @@ AOS.init({
             $(".navbar-header").removeClass('back')
          }
         });
-       })
+       
 
        $(function(){
         $.scrollIt({
