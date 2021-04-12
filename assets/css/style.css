@@ -90,7 +90,7 @@ body {
     word-wrap: break-word;
     text-align: justify; }
 
-#menu .mix::after {
+#menu .mix::before {
   content: '';
   position: absolute;
   border-bottom: 2px dashed #5e5656;
@@ -108,13 +108,16 @@ body {
 #menu .mixitup-control-active {
   color: yellow; }
 
+.bor {
+  border: none !important; }
+
 @media (min-width: 0px) {
   #home .home-inner h2 {
     font-family: 'Pacifico', cursive;
     font-size: 35px; }
   #home .home-inner {
     width: 95%; }
-  #menu .mix:nth-last-of-type(1)::after {
+  #dinner .mix:nth-last-of-type(1)::before {
     border: none !important; } }
 
 @media (min-width: 576px) {
@@ -125,8 +128,8 @@ body {
     width: 80%; } }
 
 @media (min-width: 992px) {
-  #menu .mix:nth-last-of-type(1)::after,
-  #menu .mix.mix:nth-last-of-type(2)::after {
+  #dinner .mix:nth-last-of-type(1)::before,
+  #dinner .mix:nth-last-of-type(2)::before {
     border: none !important; } }
 
 @media (min-width: 1200px) {

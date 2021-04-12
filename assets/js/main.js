@@ -16,6 +16,15 @@ AOS.init({
     duration:600
 });
 
+$('.lunch').click(function(){
+
+  
+    $('#launch .mix').addClass('')
+
+
+
+})
+
         $(window).scroll(function(){
          var y = $(window).scrollTop();
          
