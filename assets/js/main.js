@@ -17,6 +17,7 @@ AOS.init({
 });
 
 
+
    
         $(window).scroll(function(){
          var y = $(window).scrollTop();

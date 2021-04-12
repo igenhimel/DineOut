@@ -132,6 +132,36 @@ body{
     }
 }
 
+#menu{
+
+
+    .mix::after{
+        content: '';
+        position: absolute;
+        border-bottom: 2px dashed rgb(94, 86, 86);
+        width: 95%;
+        left: 15px;
+        bottom: -20px;
+        opacity: 0.5;
+    }
+
+
+
+    .ordernow{
+        font-family: 'Pacifico', cursive;
+
+    }
+    .mixbtn{
+        color: white;
+    }
+
+    .mixitup-control-active{
+        color: yellow;
+    }
+
+}
+
+
 
 
 @media (min-width: 0px) { 
@@ -147,6 +177,17 @@ body{
         width: 95%;
     }
   }
+
+ 
+    #menu{
+        .mix:nth-last-of-type(1)::after{
+            border: none!important;
+        }
+     
+     
+    }
+  
+  
 
 }
 @media (min-width: 576px) { 
@@ -164,6 +205,23 @@ body{
     }
   
   }
+
+  @media (min-width: 992px) { 
+
+  
+    #menu{
+        .mix:nth-last-of-type(1)::after,
+        .mix.mix:nth-last-of-type(2)::after{
+            border: none!important;
+        }
+     
+     
+    }
+  }
+
+
+
+
 @media (min-width: 1200px) { 
 
     #home{
@@ -179,4 +237,7 @@ body{
     }
   
   }
+
+
+
 
