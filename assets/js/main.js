@@ -16,11 +16,6 @@ AOS.init({
     duration:600
 });
 
-$(window).load(function() {
-    $('.preloader').fadeOut('slow');
- });
-
-   
         $(window).scroll(function(){
          var y = $(window).scrollTop();
          
