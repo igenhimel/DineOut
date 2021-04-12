@@ -1,17 +1,10 @@
-body, html {
+body {
   background-color: #0C1023;
-  box-sizing: border-box;
-  height: 100%;
-  width: 100%;
-  text-align: center;
-  margin: 0;
-  padding: 0;
-  position: relative; }
+  box-sizing: border-box; }
 
 #home {
   position: relative;
-  overflow: hidden;
-  /*PRELOADING------------ */ }
+  overflow: hidden; }
   #home .home2 {
     min-height: 100vh;
     background-image: url("../image/home-bg.jpg");
@@ -23,57 +16,6 @@ body, html {
   #home .home-overlay {
     min-height: 100vh;
     background-color: rgba(0, 0, 0, 0.5); }
-  #home #overlayer {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    z-index: 1;
-    background: #4a4a4a; }
-    #home #overlayer h1 {
-      color: #4a4a4a;
-      text-align: center; }
-    #home #overlayer img {
-      margin: 0 auto;
-      display: block; }
-    #home #overlayer .loader {
-      display: inline-block;
-      width: 30px;
-      height: 30px;
-      position: absolute;
-      z-index: 3;
-      border: 4px solid #Fff;
-      top: 50%;
-      animation: loader 2s infinite ease; }
-    #home #overlayer .loader-inner {
-      vertical-align: top;
-      display: inline-block;
-      width: 100%;
-      background-color: #fff;
-      animation: loader-inner 2s infinite ease-in; }
-
-@keyframes loader {
-  0% {
-    transform: rotate(0deg); }
-  25% {
-    transform: rotate(180deg); }
-  50% {
-    transform: rotate(180deg); }
-  75% {
-    transform: rotate(360deg); }
-  100% {
-    transform: rotate(360deg); } }
-
-@keyframes loader-inner {
-  0% {
-    height: 0%; }
-  25% {
-    height: 0%; }
-  50% {
-    height: 100%; }
-  75% {
-    height: 100%; }
-  100% {
-    height: 0%; } }
 
 @keyframes bgscale {
   0%, 100% {
