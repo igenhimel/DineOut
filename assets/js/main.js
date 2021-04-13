@@ -42,6 +42,27 @@ $('.lunch').click(function(){
         });
       });
 
+      $('.test').owlCarousel({
+
+          margin:20,
+          responsiveClass:true,
+          responsive:{
+
+            0:{
+                items:1
+            },
+            768:{
+                items:2,
+               
+            },
+            1200:{
+                items:3
+        }
+
+          }
+
+      });
+
   
 });
 
