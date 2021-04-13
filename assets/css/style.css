@@ -108,9 +108,6 @@ body {
 #menu .mixitup-control-active {
   color: yellow; }
 
-.bor {
-  border: none !important; }
-
 @media (min-width: 0px) {
   #home .home-inner h2 {
     font-family: 'Pacifico', cursive;
