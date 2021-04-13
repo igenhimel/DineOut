@@ -136,12 +136,16 @@ body{
     }
 }
 
+
+
 #menu{
 
-    
+    .mixbtn:focus{
+        color: yellow;
+    }
 
 
-    .mix::before{
+    .col-12::before{
         content: '';
         position: absolute;
         border-bottom: 2px dashed rgb(94, 86, 86);
@@ -162,9 +166,7 @@ body{
         color: white;
     }
 
-    .mixitup-control-active{
-        color: yellow;
-    }
+   
 
    
 
@@ -308,8 +310,8 @@ body{
     }
   }
 
-  #dinner{
-    .mix:nth-last-of-type(1)::before{
+  #menu{
+    .col-12:nth-last-of-type(1)::before{
     
         border: none!important;
             
@@ -345,9 +347,9 @@ body{
   @media (min-width: 992px) { 
 
   
-    #dinner{
-        .mix:nth-last-of-type(1)::before,
-        .mix:nth-last-of-type(2)::before{
+    #menu{
+        .col-12:nth-last-of-type(1)::before,
+        .col-12:nth-last-of-type(2)::before{
         
             border: none!important;
                 

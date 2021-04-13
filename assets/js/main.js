@@ -64,6 +64,20 @@ $('.lunch').click(function(){
       });
 
   
+   $('.lunch').click(function () { 
+      
+    $('#lunch').show('slow')
+    $('#dinner').hide('slow')
+ 
+       
+   });
+   $('.dinner').click(function () { 
+      
+    $('#dinner').show('slow')
+    $('#lunch').hide('slow')
+       
+   });
+
 });
 
 window.addEventListener("load",function(){

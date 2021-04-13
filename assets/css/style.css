@@ -90,7 +90,10 @@ body {
     word-wrap: break-word;
     text-align: justify; }
 
-#menu .mix::before {
+#menu .mixbtn:focus {
+  color: yellow; }
+
+#menu .col-12::before {
   content: '';
   position: absolute;
   border-bottom: 2px dashed #5e5656;
@@ -104,9 +107,6 @@ body {
 
 #menu .mixbtn {
   color: white; }
-
-#menu .mixitup-control-active {
-  color: yellow; }
 
 @keyframes pageLoader {
   0%, 100% {
@@ -198,7 +198,7 @@ body {
     font-size: 35px; }
   #home .home-inner {
     width: 95%; }
-  #dinner .mix:nth-last-of-type(1)::before {
+  #menu .col-12:nth-last-of-type(1)::before {
     border: none !important; } }
 
 @media (min-width: 576px) {
@@ -209,8 +209,8 @@ body {
     width: 80%; } }
 
 @media (min-width: 992px) {
-  #dinner .mix:nth-last-of-type(1)::before,
-  #dinner .mix:nth-last-of-type(2)::before {
+  #menu .col-12:nth-last-of-type(1)::before,
+  #menu .col-12:nth-last-of-type(2)::before {
     border: none !important; } }
 
 @media (min-width: 1200px) {
