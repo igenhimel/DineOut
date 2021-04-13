@@ -108,6 +108,35 @@ body {
 #menu .mixitup-control-active {
   color: yellow; }
 
+@keyframes pageLoader {
+  0%, 100% {
+    transform: translateX(-50px); }
+  50% {
+    transform: translateX(50px); } }
+
+.pageloader {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #0C1023;
+  z-index: 999; }
+
+.pageloader::before {
+  content: '';
+  position: absolute;
+  height: 4px;
+  width: 8%;
+  background-color: goldenrod;
+  left: 45%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  animation: pageLoader 1s linear infinite; }
+
+.pageloader.fade-out {
+  opacity: 0; }
+
 @media (min-width: 0px) {
   #home .home-inner h2 {
     font-family: 'Pacifico', cursive;

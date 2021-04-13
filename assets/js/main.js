@@ -11,10 +11,7 @@ $('.close-nav').click(function () {
     
 });
 
-AOS.init({
-    easing:'ease-in-out',
-    duration:600
-});
+
 
 $('.lunch').click(function(){
 
@@ -36,6 +33,8 @@ $('.lunch').click(function(){
          }
         });
        
+        
+     
 
        $(function(){
         $.scrollIt({
@@ -45,3 +44,17 @@ $('.lunch').click(function(){
 
   
 });
+
+window.addEventListener("load",function(){
+
+    document.querySelector(".pageloader").classList.add("fade-out");
+    setTimeout(function(){
+        document.querySelector(".pageloader").style.display="none"
+    },600);
+
+    AOS.init({
+        easing:'ease-in-out',
+        duration:600
+    });
+
+  });
