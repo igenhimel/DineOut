@@ -46,7 +46,6 @@ $('.lunch').click(function(){
 
           margin:20,
           responsiveClass:true,
-          autoplay:true,
           responsive:{
 
             0:{
