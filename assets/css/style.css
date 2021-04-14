@@ -90,8 +90,8 @@ body {
     word-wrap: break-word;
     text-align: justify; }
 
-#menu .mixbtn:focus {
-  color: yellow; }
+#menu .active {
+  color: yellow !important; }
 
 #menu .col-12::before {
   content: '';
@@ -107,6 +107,41 @@ body {
 
 #menu .mixbtn {
   color: white; }
+
+#menu .mix-active {
+  color: yellow !important; }
+
+#team .teams {
+  font-family: 'Pacifico', cursive; }
+
+#team img {
+  border-radius: 8px;
+  transition: 0.6s ease all; }
+
+#team .team-descrip {
+  background-color: #1f243d;
+  padding: 8px;
+  padding-left: 22%;
+  padding-right: 22%;
+  border-radius: 10px;
+  position: relative;
+  top: -40px;
+  display: inline-block;
+  transition: 0.4s ease all; }
+
+#team .team-descrip h4, #team h5 {
+  color: white; }
+
+#team .imghov {
+  transform: skewY(2deg); }
+
+#team .hovers {
+  top: -100px !important;
+  background-color: orange !important;
+  transform: skewY(2deg); }
+
+#team .addColor {
+  color: black !important; }
 
 @keyframes pageLoader {
   0%, 100% {
@@ -176,6 +211,11 @@ body {
 
 #testimonial .card:hover .img-border {
   background-color: orange; }
+
+@media (max-width: 992px) {
+  #team .team-descrip {
+    padding-left: 13%;
+    padding-right: 13%; } }
 
 @media (max-width: 576px) {
   #testimonial .testimonial-item h3 {

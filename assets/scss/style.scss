@@ -140,10 +140,11 @@ body{
 
 #menu{
 
-    .mixbtn:focus{
-        color: yellow;
-    }
+  
+    .active{
+        color: yellow!important;
 
+    }
 
     .col-12::before{
         content: '';
@@ -166,10 +167,64 @@ body{
         color: white;
     }
 
-   
+    .mix-active{
+        color: yellow!important;
+    }
+
+
 
    
 
+   
+
+}
+
+#team{
+    .teams{
+        font-family: 'Pacifico', cursive;
+
+    }
+
+    img{
+        border-radius:8px;
+        transition: 0.6s ease all;
+    }
+
+   
+
+
+    .team-descrip{
+        background-color:#1f243d;
+        padding: 8px;
+        padding-left: 22%;
+        padding-right: 22%;
+        border-radius: 10px;
+        position: relative;
+        top:-40px;
+        display: inline-block;
+        transition: 0.4s ease all;
+    }
+    .team-descrip h4,h5{
+       color: white;
+      
+    }
+
+    .imghov{
+        transform: skewY(2deg);
+       
+    }
+    
+    .hovers{
+        top:-100px!important;
+        background-color: orange!important;
+        transform: skewY(2deg);
+    
+    }
+
+
+    .addColor{
+        color: black!important;
+    }
 }
 
 @keyframes pageLoader{
@@ -265,6 +320,15 @@ body{
 
 }
 
+@media(max-width:992px){
+    #team{
+        .team-descrip{
+            padding-left: 13%;
+            padding-right: 13%;
+        }
+    }
+}
+
 @media (max-width: 576px) { 
 
 
@@ -295,6 +359,7 @@ body{
   
   }
     
+
 
 
 @media (min-width: 0px) { 
